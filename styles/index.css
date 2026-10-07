@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #121214;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+.login-container {
+    display: flex;
+    width: 100%;
+    max-width: 850px;
+    min-height: 480px;
+    background-color: #202024;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.login-card {
+    flex: 1;
+    padding: 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-card h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+.input-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-group label {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    color: #c4c4cc;
+}
+.input-group input {
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #29292e;
+    background: #121214;
+    color: #ffffff;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.input-group input:focus {
+    border-color: #ff3399;
+}
+.forgot-password {
+    text-align: right;
+    margin-bottom: 1.2rem;
+}
+.forgot-password a {
+    color: #a8a8b3;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.forget-password a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.btn-entrar {
+    width: 100%;
+    padding: 0.85rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff2a8d;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: filter 0.2s, background-color 0.2s;
+}
+.btn-entrar hover {
+    background-color: #ff0073;
+    filter: brightness(1.1);
+}
+.signup-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.signup-link a {
+    color: #c4c4cc;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.signup-link a hover {
+    color: #ff3399;
+    text-decoration: underline;
+}
+.gradient-side {
+    flex: 1;
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 50%, #7f00ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

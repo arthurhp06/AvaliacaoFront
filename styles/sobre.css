@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #121214;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+.sobre-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    min-height: 520px;
+    background-color: #202024;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.sobre-card {
+    flex: 1.2;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sobre-card h2 {
+    font-size: 1.6 rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+.topic {
+    margin-bottom: 1.2rem;
+}
+.topic h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #e1e1e6;
+}
+.topic p {
+    font-size: 0.85rem;
+    color: #a8a8b3;
+    line-height: 1.4;
+}
+.badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.badge.html { background-color: #e44d26; color: #fff; }
+.badge.css { background-color: #264de4; color: #fff; }
+.badge.js { background-color: #f7df1e; color: #000; }
+
+.nav-button {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.btn {
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    transition: filter 0.2, background-color 0.2s;
+}
+.btn.primary {
+    background-color: #ff2a8d;
+    color: #ffffff;
+}
+.btn.btn.primary.hover {
+    background-color: #ff0073;
+    filter:brightness(1.1);
+}
+.btn.secondary {
+    background-color: #29292e;
+    color: #c4c4cc;
+}
+.btn.secondary:hover {
+    background-color: #323238;
+    color: #ffffff;
+}
+.gradient-side {
+    flex: 1;
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 50%, #7f00ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+.banner-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.banner-content p {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.4;
+}

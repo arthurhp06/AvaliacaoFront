@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #121214;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+.exercicio-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    min-height: 520px;
+    background-color: #202024;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.exercicio-card {
+    flex: 1.2;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exercicio-card h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
+}
+.input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-group label {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    color: #c4c4cc;
+}
+.input-group input {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #29292e;
+    background: #121214;
+    color: #ffffff;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.input-group input:focus {
+    border-color: #ff3399;
+}
+.btn-calcular {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff2a8d;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: filter 0.2, background-color 0.2s;
+    margin-bottom: 1rem;
+}
+.btn-calcular:hover {
+    background-color: #ff0073;
+    filter: brightness();
+}
